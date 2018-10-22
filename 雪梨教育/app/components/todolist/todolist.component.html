@@ -1,0 +1,30 @@
+<p>
+  todolist works!
+</p>
+<h1>{{title}}</h1>
+<!--1.写输入框标签，绑定键盘事件-->
+<input type="text" [(ngModel)]="txt" placeholder="添加Todo" (keydown)='getvalue($event)'>
+<h3>正在进行<span>{{arr.length-counter}}</span></h3>
+<!--2.写入待办事件呈现列表-->
+<ul>
+  <!--item是数组对象；title是属性-->
+  <!--ng-container不显示li标签-->
+  <ng-container *ngFor="let item of arr;let i=index;">
+    <li *ngIf="!item.done">
+      <input type="checkbox" (click)="change(i)">
+      {{item.title}}
+      <!--3.删除按钮绑定点击事件-->
+      <button (click)="delete(i)">删除</button>
+    </li>
+  </ng-container>
+</ul>
+<h3>已经完成<span>{{counter}}</span></h3>
+<ul>
+    <ng-container *ngFor="let item of arr;let i=index;">
+      <li *ngIf="item.done">
+        <input checked type="checkbox" (click)="change(i)">
+        {{item.title}}
+        <button (click)="delete(i)">删除</button>
+      </li>
+    </ng-container>
+</ul>

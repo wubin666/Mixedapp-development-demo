@@ -1,0 +1,20 @@
+
+<div  class="container">
+    <div class="left">
+        <ul>
+            <li *ngFor="let essay of essays;">
+                <a [routerLink]="['/shequ',essay.id]">
+                    <img src="{{essay.headPortrait}}" class="size">
+                    <div class="floatr">
+                        <img src="{{essay.picture}}" class="picsize">
+                        <div class="float namestyle">{{essay.tname}}</div>
+                        <div class="float fontsize">{{essay.introduce}}</div>
+                        <span class="nt">{{essay.name}}&nbsp;{{essay.time}}</span>
+                        <span class="right nt">阅读{{essay.reading}}|评论{{essay.comment}}</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="right"></div>
+</div>

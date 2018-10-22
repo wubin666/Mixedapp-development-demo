@@ -1,0 +1,115 @@
+.left{
+    float: left;
+    width:150px;
+    position: relative;
+    left:200px;
+}
+.marpad{
+    margin-left: 20px;
+    padding-right: 42px;
+}
+.img01{
+    width:150px;
+    border-radius:75px;
+    
+}
+.marpad02{
+    margin-left: 25px;
+    margin-right:22px;
+}
+.ul02 li{
+    float: left;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+/* ul li {
+    line-height:40px;
+} */
+.ul01{
+    margin-bottom: 25px;
+    font-size: 14px;
+   
+    /* width:150px; */
+}
+.ul3 a{
+    color: black;
+}
+.ul03 li{
+    font-size: 16px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.ul01 li{
+    float: left;
+    line-height: 10px;
+    /* height: 50px; */
+}
+.ul3{
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+.ul3 li{
+    line-height: 33px;
+    font-size: 18px;
+}
+.li1{
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    padding-left: 30px;
+    margin-left: 10px;
+    background-position:left  center;
+    text-align: left center;
+}
+.li2{
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    margin-left: 10px;
+    background-position:left  center;
+    text-align: left center;
+}
+.li3{
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    margin-left: 10px;
+    background-position:left  center;
+    text-align: left center;
+}
+.li4{
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    margin-left: 10px;
+    background-position:left  center;
+    text-align: left center;
+}
+.li5{
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    margin-left: 10px;
+    background-position:left  center;
+    text-align: left center;
+}
+.right{
+    /* border: 1px solid gainsboro; */
+    float: left;
+    position: relative;
+    left: 250px;
+    width: 780px;
+    height:500px;
+}
+.ul2 li {
+    float:left;
+    margin-left: 10px;
+    margin-right: 45px;
+    height: 40px;
+}
+.ul3{
+    margin-top: 20px;
+}

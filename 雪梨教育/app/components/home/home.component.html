@@ -1,0 +1,22 @@
+<div class="left">
+  <a  [routerLink]="['/home']"><img src="../../../assets/images/02.jpg" class="img01"></a>
+  <ul class="ul03"><li>5-武滨</li></ul>
+  <ul class="ul02">
+      <li class="marpad02">3</li>
+      <li class="marpad02">22</li>
+  </ul>
+  <ul class="ul01">
+    <li class="marpad">粉丝</li>
+    <li>关注</li>
+  </ul><br>
+  <ul class="ul3" id="ul3">
+    <li class="li1" (mousemove)="colorchange('7')" id=7><a [routerLink]="['./hometask']">任务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li class="li2" (mousemove)="colorchange('8')" id=8><a [routerLink]="['./hometongbu']">同步课&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li class="li3" (mousemove)="colorchange('9')" id=9><a [routerLink]="">课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li class="li4" (mousemove)="colorchange('10')" id=10><a [routerLink]="">且说&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li class="li5" (mousemove)="colorchange('11')" id=11><a [routerLink]="">通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+  </ul>
+</div>
+<div class="right">
+  <router-outlet></router-outlet>
+</div>

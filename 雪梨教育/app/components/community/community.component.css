@@ -1,0 +1,51 @@
+ul li{
+    overflow:hidden;
+}
+.container{
+    width:1020px;
+}
+.left{
+    width:710px;
+}
+.size{
+    width: 40px;
+    border-radius:30px;
+}
+.namestyle{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.nt{
+    color:rgb(175, 167, 167);
+    font-size: 15px;
+}
+.picsize{
+    width:130px;
+    float: left;
+    height: 90px;
+    /* display: block; */
+}
+.float{
+    float:left;
+    width: 520px;
+}
+.floatr{
+    margin-top: 10px;
+    float: right;
+    width: 660px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+.fontsize{
+    margin-top: 15px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color:black;
+    margin-left: 10px;
+}
+.right{
+    float: right;
+    width:150px;
+}

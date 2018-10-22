@@ -1,0 +1,31 @@
+.container{
+    width: 700px;
+    align-self: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pic{
+    width:700px;
+    height: 280px;
+}
+.headp{
+    width: 36px;
+    height: 36px;
+    border-radius:30px;
+    
+}
+.div1{
+    margin-bottom: 30px;
+}
+.left{
+    /* padding-left: 20px; */
+    align-self: center;
+}
+.intro{
+    line-height: 40px;
+}

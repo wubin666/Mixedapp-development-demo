@@ -1,0 +1,41 @@
+#header{
+    height:50px;
+    background-color: #ccc;
+}
+.pic{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 200px;
+    float: left;
+}
+.title{
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+.fenlei{
+    width: 400px;
+    margin-left: 200px;
+    line-height: 50px;
+    float: left;
+}
+.fenlei li{
+    float: left;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.search-banner{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 12px;
+    float: left;
+}
+.control{
+    width: 200px;
+    height: 20px;
+}
+#button{
+    width: 50px;
+    height: 25px;
+}
