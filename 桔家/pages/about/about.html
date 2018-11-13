@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-slides (ionSlideDidChange)="change()" pager="true" autoplay="1000" loop="true" class="sli">
+  <ion-slide>
+    <img src="../../assets/imgs/a.jpg">
+  </ion-slide>
+  <ion-slide>
+    <img src="../../assets/imgs/b.jpg">
+  </ion-slide>
+  <ion-slide>
+    <img src="../../assets/imgs/c.jpg">
+  </ion-slide>
+</ion-slides> 
+</ion-content>

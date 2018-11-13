@@ -1,0 +1,25 @@
+page-add {
+    ion-content{
+        background-color: #ffdb2c;
+        .goods{
+          img{
+               width: 100%;
+          }
+          ion-col{
+            position:relative;
+            h3{
+                color: black;
+                height: 10px;
+                text-align: center;
+            }  
+            h5{
+                color: black;
+                height: 10px;
+                text-align: center;
+            }  
+          }
+        }
+
+    
+    }
+}

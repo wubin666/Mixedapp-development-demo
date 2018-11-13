@@ -1,0 +1,27 @@
+page-my {
+    ion-content{
+        .list-md {
+            margin: -1px 0 0px;
+            background-color: #eeeeee;
+        }
+        .subtitle{
+            img{
+                width: 100%;
+            }
+        }
+        #wrap{
+            background-color: #eeeeee;
+          ion-col{
+            background-color: white;
+            height: 100px;
+            text-align: center;
+            margin: 3px 2px;   
+            padding:20px;      
+          }  
+          ion-col:hover{
+            background-color: #ffdb2c;;
+          }
+        }
+    }
+
+}
