@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { BPage } from '../b/b';
 import { HttpClient } from '@angular/common/http';
+import { SearchPage } from '../search/search';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -19,7 +20,9 @@ export class HomePage {
       this.items.push( this.items.length );
     }
   }
- 
+  search(){
+    this.navCtrl.push(SearchPage);
+  }
   
   doInfinite(infiniteScroll) {
     this.http.get('/api/courses').subscribe(data=>{

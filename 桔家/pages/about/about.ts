@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'page-about',
@@ -7,7 +8,11 @@ import { NavController, Slides } from 'ionic-angular';
 })
 export class AboutPage {
   @ViewChild(Slides) Slides:Slides;
-  constructor(public navCtrl: NavController) {
+  isActive=0;
+  isClick(i){
+    this.isActive =i;
+  }
+  constructor(public http:HttpClient,public navCtrl: NavController) {
   }
   ionViewDidLoad(){
   }

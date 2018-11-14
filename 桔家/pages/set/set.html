@@ -1,8 +1,5 @@
 <ion-header text-center no-border>
   <ion-navbar color="yel">
-    <button ion-button icon-only menuToggle>
-       <ion-icon name=""></ion-icon>
-    </button>
     <ion-title>
       设置
     </ion-title>
@@ -13,7 +10,19 @@
     </ion-buttons>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-
+<ion-content  style="background-color: #eeeeee;">
+  <ion-list class="list1">
+    <ion-item>
+      <h2><ion-icon name='menu'></ion-icon>&nbsp;&nbsp;清除缓存</h2>
+      <p item-end>666.6KB</p>
+    </ion-item>
+    <ion-item detail-push>
+      <h2><ion-icon name='people'></ion-icon>&nbsp;&nbsp;关于我们</h2>
+    </ion-item>
+    <ion-item detail-push>
+      <h2><ion-icon name='aperture'></ion-icon>&nbsp;&nbsp;版本信息</h2>
+    </ion-item>
+  </ion-list>
+  <p></p>
+  <button ion-button full (click)="backing()">退出登录</button>
 </ion-content>

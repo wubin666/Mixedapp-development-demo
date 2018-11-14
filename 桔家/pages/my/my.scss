@@ -19,7 +19,11 @@ page-my {
             padding:20px;      
           }  
           ion-col:hover{
-            background-color: #ffdb2c;;
+            background-color: #ffdb2c;
+          }
+          ion-icon {
+            display: inline-block;
+            font-size: 2em;
           }
         }
     }

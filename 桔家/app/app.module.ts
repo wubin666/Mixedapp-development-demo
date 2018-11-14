@@ -16,6 +16,8 @@ import { ComponentsModule } from '../components/components.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MyPage } from '../pages/my/my';
 import { AddPage } from '../pages/add/add';
+import { SetPage } from '../pages/set/set';
+import { SearchPage } from '../pages/search/search';
 @NgModule({
   declarations: [
     MyApp,
@@ -26,7 +28,9 @@ import { AddPage } from '../pages/add/add';
     APage,
     BPage,
     MyPage,
-    AddPage
+    AddPage,
+    SetPage,
+    SearchPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,9 @@ import { AddPage } from '../pages/add/add';
     APage,
     BPage,
     MyPage,
-    AddPage
+    AddPage,
+    SetPage,
+    SearchPage
   ],
   providers: [
     StatusBar,
